@@ -1,0 +1,53 @@
+
+select{
+  width: 60%;
+  padding: 15px;
+  margin: 10px;
+  display: block;
+  background: #f1f1f1;
+  color: #757575;
+  border-color:rgb(148, 207, 255) !important;
+  border-width: 3px !important;
+
+      
+  }
+  select:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  #serviceForm{
+      margin-left: 25%;
+      margin-top: 5%;
+  }
+  .class{
+    margin-left: 30%;
+    display:block;
+    width: 45%; 
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #DC3545;
+    box-shadow: 0px 13px 10px -7px rgb(114, 113, 113);
+    margin-top:10px;
+  }
+  .center{
+    margin-left:5%;
+    width: 30%;
+    
+  }
+
+  @media only screen and (max-width: 768px){
+   
+   .App{
+    margin-left: -5%;
+    width: 95% !important;
+   }
+   .center {
+     width: 90% !important;
+    margin-left: 3% !important;
+}
+
+.class{
+  width:90%;
+  margin-left: 5%;
+}
+  }

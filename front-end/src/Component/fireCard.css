@@ -1,0 +1,29 @@
+.uCard{
+    width: 40%;
+    margin-left:10%;
+    border:1px solid rgb(189, 185, 185);
+    color: #636262;
+    line-height: 17px;
+    margin-top: 10px;
+}
+p{
+    margin-left: 10px;
+    
+}
+
+@media only screen and (max-width: 768px){
+     .uCard{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 10px !important;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .uCard{
+        width: 90%;
+    }
+
+    }  

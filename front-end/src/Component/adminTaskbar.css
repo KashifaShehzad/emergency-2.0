@@ -1,0 +1,12 @@
+.ad{
+    margin-left: 50px !important;
+    color: white !important;
+    
+}
+.navbar2{
+    display: flex !important;
+    justify-content:space-evenly !important; 
+    width: 100% !important;
+    background-color:#DC3545;
+   
+}

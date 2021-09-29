@@ -1,0 +1,54 @@
+.police{
+    display:block;
+    width:30%;
+    height:30%;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+
+.name{
+    margin-top: -490px;
+    margin-left: 23%;
+    font-size:20px;
+}
+
+.get{
+    
+    margin-left: 13%;
+    margin-top: -10px;
+}
+
+
+@media only screen and (max-width: 768px){
+        .police{
+            display: none;
+        }
+        
+        .name{
+            margin-top: 20px;
+            margin-left: 25%;
+        }
+    
+        .get{
+            width: 100% !important;
+            margin-left: 0%;
+            margin-top: -10px;
+        }
+    
+        }
+
+        @media only screen and (max-width: 992px){
+            .police{
+                display: none !important;
+            }
+            .name{
+                margin-top: 3%;
+                margin-left: 45%;
+            }
+            .get{
+                width: 90% !important;
+                margin-left: 10%;
+                margin-top: -10px;
+            }
+        
+            } 

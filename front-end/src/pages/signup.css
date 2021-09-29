@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  color: #f5f0f0;
+  font-weight: 500;
+  background-color:#f87272;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font: size 13px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.form{
+  width:100%;
+  height:auto;
+  padding-left: 700px;
+}
+
+span{
+  color: rgb(199, 11, 11);
+}

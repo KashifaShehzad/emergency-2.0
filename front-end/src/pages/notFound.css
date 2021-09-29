@@ -1,0 +1,14 @@
+#error{
+    width: 30%;
+    height: 30%;
+    margin-top: 7%;
+    margin-left: 33%;
+}
+
+@media(max-width: 360px){
+    #error{
+        width: 90% !important;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+}

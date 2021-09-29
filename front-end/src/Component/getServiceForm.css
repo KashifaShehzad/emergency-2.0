@@ -1,0 +1,17 @@
+.help{
+    margin-top: 10px;
+    margin-left: 15%;
+}
+@media only screen and (max-width: 768px){
+   .help {
+    width:90% !important;
+    margin-left: 0%;
+}
+input{
+    width:90% !important;
+}
+
+select {
+    width: 90% !important;
+ }
+  }

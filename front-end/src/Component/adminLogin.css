@@ -1,0 +1,44 @@
+.serviceType {
+    width: 60%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    background: #f1f1f1;
+    
+  }
+
+  
+  .serviceType:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+select{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    background: #f1f1f1;
+    color: #757575;
+    border-color:rgb(148, 207, 255) !important;
+    border-width: 3px !important;
+    border-radius: 5px;   
+}
+select:focus {
+  background-color: #ddd;
+  border-color:rgb(148, 207, 255) !important;
+}
+.subbtn {
+    margin-top: 20px !important;
+    margin-left: 13% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    select {
+      width: 90% !important;
+   }
+   .subbtn {
+    width:40% !important;
+    margin-left: 20% !important;
+    
+}
+  }

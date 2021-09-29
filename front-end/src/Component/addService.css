@@ -1,0 +1,24 @@
+
+.hello{
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+#center{
+    margin-left: 18% !important;
+}
+
+
+@media only screen and (max-width: 768px){
+    
+    #center{
+        width: 50% !important;
+        margin-left: 20% !important;
+       
+    }
+    .App{
+        margin-top: -55px !important;
+        margin-left: -8px;
+    }
+    
+  }

@@ -1,0 +1,13 @@
+.User{
+    border-color: #474747;
+    border: 1px solid;
+    width: 20%;
+    margin-left: 90px;
+}
+
+@media(max-width: 360px){
+    .User{
+        width:90%;
+        margin-left:-10%;
+    }
+}

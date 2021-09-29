@@ -1,0 +1,33 @@
+.img-fluid{
+    display:block;
+    width:200% !important;
+    height:200% !important;
+    margin-left: 100% !important;
+    margin-top: -10px !important;
+}
+
+#text{
+    margin-top: -550px !important;
+    margin-left: 100px !important;
+}
+
+.col-md-6{
+    font-size:70px !important;
+    color: #DA0037;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    .img-fluid{
+        display:block;
+        margin-left: 0% !important;
+        margin-top: -20px !important;
+    }
+
+    .col-md-6{
+        font-size:8vw !important;
+    }
+    #text{
+        margin-top: -40px !important;
+        margin-left: 30px !important;
+    }
+  }

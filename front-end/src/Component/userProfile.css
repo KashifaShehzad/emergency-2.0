@@ -1,0 +1,26 @@
+.profile{
+    display: block !important;
+    padding: 5px 5px !important;
+    margin-left: 35% !important;
+    margin-top: 3%;
+    border-radius:5px !important;
+}
+
+
+.width{
+    width: 90% !important;
+    margin-left:-20%;
+}
+
+
+@media only screen and (max-width: 768px){
+    .profile{
+        
+        margin-left: 35% !important;
+        margin-top: 0%;
+    }
+    .width{
+        width: 120% !important;
+    }
+    
+  }
